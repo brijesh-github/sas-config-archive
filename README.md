@@ -11,4 +11,6 @@
 
 5. Copy archive.sh to the server in the following location, /opt/sas-config-scheduler and make it exectuable. 
 
-6. Update the crontab, and add the archive script to execute everday at 1 AM.
+6. Test the script by running manually.
+
+7. Update the crontab, and add the archive script to execute everday at 1 AM.
