@@ -3,7 +3,7 @@
 archive_file_name="/tmp/sas-config-$(date +'%m%d%Y').tar.gz"
 bucket_path="$(date +'%Y')/$(date +'%B')/"
 
-tar -zcvf $archive_file_name /etc/puppetlabs/code/environments/production/modules/role  > /dev/null 2>&1
+tar -zcvf $archive_file_name /location_config_directory  > /dev/null 2>&1
 
 if [ -f $archive_file_name ]; then
   aws s3 cp $archive_file_name s3://bucket-name/$bucket_path 
