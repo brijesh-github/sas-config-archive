@@ -14,3 +14,7 @@
 6. Test the script by running manually.
 
 7. Update the crontab, and add the archive script to execute everday at 1 AM.
+
+  0 1 * * * /home/centos/archive-tool/archive.sh >> /var/log/sas-config-archive.log
+
+
