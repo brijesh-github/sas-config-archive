@@ -1,0 +1,4 @@
+0 1 * * * /home/centos/archive-tool/archive.sh >> /var/log/sas-config-archive.log
+
+
+

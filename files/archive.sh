@@ -15,6 +15,7 @@ if [ -f $archive_file_name ]; then
   else
         echo "Error in copying the archive file to S3."
   fi
+  rm -f $archive_file_name
 else
   echo 'Error in archiving sas configuration.'
 fi
