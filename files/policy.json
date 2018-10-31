@@ -6,7 +6,7 @@
             "Action": [
                 "s3:PutObject"
             ],
-            "Resource": ["arn:aws:s3:::<BUCKET_NAME>/*"]
+            "Resource": ["arn:aws:s3:::aaa-northeast-sas-config-backup/*"]
         }
     ]
 }
